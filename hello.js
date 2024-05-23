@@ -55,3 +55,12 @@ const message2 = "meet you!";
 const two_in_one = message1 + message2
 
 console.log(two_in_one)
+console.log(15*14)
+console.log(16 - 2 * 5 / 3 + 1);
+
+const input = require('readline-sync');
+
+let info = input.question("Please enter your age: ");
+//user enters 25
+
+console.log(typeof info);
